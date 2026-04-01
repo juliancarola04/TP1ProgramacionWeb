@@ -34,17 +34,65 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto gap-3">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Proyectos</a>
+                            <a href="#" class="nav-link">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">Sobre nosotros</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contacto</a>
+                        </li>
                     </ul>
                 </div>
-
             </div>
         </nav>
     </header>
+
+    <section id="home" class="home-section d-flex align-items-center">
+    
+    <!-- Fondo -->
+    <div class="home-bg"></div>
+
+    <div class="container position-relative">
+        <div class="row align-items-center g-5">
+
+            <!-- Texto -->
+            <div class="col-md-6 text-center text-md-start">
+                <h1 class="display-4 fw-bold mb-3 text-white">
+                    Solutions Co.
+                </h1>
+
+                <h2 class="h3 text-secondary mb-4">
+                    Equipo de Desarrollo de Software
+                </h2>
+
+                <p class=" h5 card-text">
+                    Somos un equipo de desarrolladores apasionados por crear soluciones innovadoras y eficientes para nuestros clientes. Con experiencia en una amplia gama de tecnologías, estamos comprometidos a entregar resultados de alta calidad que superen las expectativas.
+                </p>
+
+                <div class="d-flex justify-content-center justify-content-md-start gap-3">
+                    <a href="#projects" class="btn btn-primary px-4 py-2">
+                        Ver Proyectos
+                    </a>
+                    <a href="#contact" class="btn btn-outline-light px-4 py-2">
+                        Contacto
+                    </a>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="col-md-6 text-center">
+                <img src="assets/img/LogoGrande.png"
+                     alt="Solutions Co."
+                     class="img-fluid rounded-4 shadow-lg home-img">
+            </div>
+
+        </div>
+    </div>
+</section>
 
     <main class="flex-fill" >
          <div class="container mt-5">
@@ -86,46 +134,7 @@
             </div>
         </div>
     </main>
-        <main class="flex-fill" >
-         <div class="container mt-5">
-            <div class="row">
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/img/fotoJulian.jpg" class="card-img-top">
-                            <h5 class="card-title text-center mt-3">
-                                Julián Carola
-                            </h5>
-                            <p class="card-text ">
-                                Especialista en front end y diseño. <br>
-                                Interesado en nuevas formas de ver la web.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 offset-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/img/fotoSol.png" class="card-img-top">
-                            <h5 class="card-title text-center mt-3">
-                                Sol López
-                            </h5>
-                            <p class="card-text">
-                                Especialista en back end y base de datos. <br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col d-flex justify-content-center">
-                        <button type="button" class="btn btn-success btn-lg">
-                            Contactarnos
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+
 
     <footer>
         <div class="container-fluid justify-content-center gap-5 d-flex bg-secondary-subtle">
@@ -133,8 +142,8 @@
             <p>2026</p>
         </div>
     </footer>
+    <script src="assets/js/appIndex.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
-    <script src="assets/js/appIndex.js"></script>
 </body>
 </html>
