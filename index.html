@@ -15,72 +15,62 @@
     <header>
         <!-- https://getbootstrap.com/docs/5.3/components/navbar/ -->
         <nav class="navbar navbar-expand-md bg-body-secondary">
-            <div class="container-fluid justify-content-center">
-                <div class="d-flex gap-3">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="../TP1ProgramacionWeb/assets/img/perritoCallcenter.jpg">
-                        Solutions Co.
-                    </a>
-                    <!-- Esto fijate que permite colapsar las opciones de nav cuando se hace chiquita la pantalla -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Proyectos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Sobre nosotros</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../TP1ProgramacionWeb/assets/img/perritoCallcenter.jpg">
+                    Solutions Co.
+                </a>
+                <!-- Esto fijate que permite colapsar las opciones de nav cuando se hace chiquita la pantalla -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto gap-3 ">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Sobre nosotros</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="flex-fill" >
-         <div class="container mt-5">
-            <div class="row">
-                <div class="col-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/img/fotoJulian.jpg" class="card-img-top">
-                            <h5 class="card-title text-center mt-3">
-                                Julián Carola
-                            </h5>
-                            <p class="card-text ">
-                                Especialista en front end y diseño. <br>
-                                Interesado en nuevas formas de ver la web.
-                            </p>
-                        </div>
+    <main class="flex-fill d-flex">
+        <div class="container d-flex align-items-center">
+            <div class="row align-items-center">
+                <div class="col-6 text-start">
+                    <h1 class="display-4 fw-bold mb-3 text-white">
+                        Solutions Co.
+                    </h1>
+
+                    <h2 class="h3 text-secondary mb-4">
+                        Equipo de Desarrollo de Software
+                    </h2>
+
+                    <p class="h5">
+                        Somos un equipo de desarrolladores apasionados por crear soluciones innovadoras y eficientes para nuestros clientes. Con experiencia en una amplia gama de tecnologías, estamos comprometidos a entregar resultados de alta calidad que superen las expectativas.                    
+                    </p>
+
+                    <div class="d-flex justify-content-start gap-3">
+                        <a href="#projects" class="btn btn-primary px-4 py-2">
+                            Ver Proyectos
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light px-4 py-2">
+                            Contacto
+                        </a>                        
                     </div>
                 </div>
-                <div class="col-3 offset-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="assets/img/fotoSol.png" class="card-img-top">
-                            <h5 class="card-title text-center mt-3">
-                                Sol López
-                            </h5>
-                            <p class="card-text">
-                                Especialista en back end y base de datos. <br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col d-flex justify-content-center">
-                        <button type="button" class="btn btn-success btn-lg">
-                            Contactarnos
-                        </button>
-                    </div>
+
+                <div class="col-6 text-center">
+                    <img src="assets/img/LogoGrande.png" class="img-fluid rounded-4 shadow-lg">
                 </div>
             </div>
         </div>
     </main>
-
+    
     <footer>
         <div class="container-fluid justify-content-center gap-5 d-flex bg-secondary-subtle">
             <p>Desarrollado por Julián Carola y Sol López</p>
