@@ -12,4 +12,4 @@ Se utilizó principlamente Bootstrap 5.2 junto a HTML 5 con una poco de JS.
 Para visualizarlo localmente has de darle al botón verde que dice "Code" y luego darle a botón de "Download ZIP". Una vez se le haya bajado el comprimido descomprímalo dándole click derecho y descomprimir. Para visualizar la página abre index.html y a través de ahí podrá navegar a los distintos sectores de la página web.
 
 ### Como visualizarlo remotamente
-Ingresar al siguiente enlace: [text](https://juliancarola04.github.io/TP1ProgramacionWeb/)
+Ingresar al siguiente [enlace](https://juliancarola04.github.io/TP1ProgramacionWeb/).
