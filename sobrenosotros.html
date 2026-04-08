@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solutions Co.</title>
+    <title>Página principal</title>
     <meta name="description" content="Esta página muestra una presentación básica de los servicios que pueden ofrecer Solutions Co..">
     <meta name="keywords" content="servicios, servicios web, web">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body class="d-flex flex-column min-vh-100">
     <!-- Este video está bueno para ver lo de flexbox
         https://www.youtube.com/watch?v=fYq5PXgSsbE&t=1s -->
@@ -18,7 +16,7 @@
         <!-- https://getbootstrap.com/docs/5.3/components/navbar/ -->
         <nav class="navbar navbar-expand-md bg-body-secondary">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="../TP1ProgramacionWeb/assets/img/perritoCallcenter.jpg">
                     Solutions Co.
                 </a>
@@ -32,7 +30,7 @@
                             <a href="proyectos.html" class="nav-link">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="sobrenosotros.html" class="nav-link">Sobre nosotros</a>
+                            <a href="#" class="nav-link">Sobre nosotros</a>
                         </li>
                     </ul>
                 </div>
@@ -40,38 +38,46 @@
         </nav>
     </header>
 
-    <main class="flex-fill d-flex">
-        <div class="container d-flex align-items-center">
-            <div class="row align-items-center">
-                <div class="col-6 text-start">
-                    <h1 class="display-4 fw-bold mb-3 text-white">
-                        Solutions Co.
-                    </h1>
-
-                    <h2 class="h3 text-secondary mb-4">
-                        Equipo de Desarrollo de Software
-                    </h2>
-
-                    <p class="h5">
-                        Somos un equipo de desarrolladores apasionados por crear soluciones innovadoras y eficientes para nuestros clientes. Con experiencia en una amplia gama de tecnologías, estamos comprometidos a entregar resultados de alta calidad que superen las expectativas.                    
-                    </p>
-
-                    <div class="d-flex justify-content-start gap-3">
-                        <a href="proyectos.html" class="btn btn-primary px-4 py-2">
-                            Ver Proyectos
-                        </a>
-                        <a href="contacto.html" class="btn btn-outline-light px-4 py-2">
-                            Contacto
-                        </a>                        
+    <main class="flex-fill d-flex" >
+         <div class="container d-flex flex-column justify-content-center align-items-center flex-fill"> 
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/fotoJulian.jpg" class="card-img-top">
+                            <h5 class="card-title text-center mt-3">
+                                Julián Carola
+                            </h5>
+                            <p class="card-text ">
+                                Especialista en front end y diseño. <br>
+                                Interesado en nuevas formas de ver la web.
+                            </p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-6 text-center">
-                    <img src="assets/img/LogoGrande.png" class="img-fluid rounded-4 shadow-lg">
+                <div class="col-3 offset-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="assets/img/fotoSol.png" class="card-img-top">
+                            <h5 class="card-title text-center mt-3">
+                                Sol López
+                            </h5>
+                            <p class="card-text">
+                                Especialista en back end y base de datos. <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col d-flex justify-content-center">
+                        <a type="button" class="btn btn-success btn-lg" href="contacto.html">
+                            Contactarnos
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
+    </main>    
     
     <footer>
         <div class="container-fluid justify-content-center gap-5 d-flex bg-secondary-subtle">
@@ -79,7 +85,6 @@
             <p>2026</p>
         </div>
     </footer>
-    <script src="assets/js/appIndex.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 </body>
