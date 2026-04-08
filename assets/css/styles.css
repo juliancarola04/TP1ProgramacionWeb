@@ -1,0 +1,55 @@
+.navbar-custom {
+    background: rgba(20, 20, 20, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-custom .nav-link {
+    color: #cfcfcf;
+    transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffffff;
+}
+body {
+    padding-top: 80px;
+}
+
+.home-section {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: #0f0f0f;
+}
+
+/* Fondo con imagen + overlay */
+.home-bg {
+    position: absolute;
+    inset: 0;
+    background: url('https://public.readdy.ai/ai/img_res/7b6b09d0a46c38225197ebd727058ffb.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.08;
+}
+
+/* Imagen */
+.home-img {
+    max-width: 400px;
+}
+
+/* Botones estilo moderno */
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+.btn-outline-light:hover {
+    transform: scale(1.05);
+}
+.container {
+    padding-bottom: 3px;
+}
